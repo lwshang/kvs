@@ -27,15 +27,15 @@ fn main() {
     let opt = Opt::from_args();
 
     match opt {
-        Opt::Set {key:_, value:_} => {
+        Opt::Set { key: _, value: _ } => {
             eprintln!("unimplemented");
             exit(1);
         }
-        Opt::Get {key:_}  => {
+        Opt::Get { key: _ } => {
             eprintln!("unimplemented");
             exit(1);
         }
-        Opt::Rm {key:_}=> {
+        Opt::Rm { key: _ } => {
             eprintln!("unimplemented");
             exit(1);
         }
